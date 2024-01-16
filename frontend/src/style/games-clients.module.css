@@ -1,0 +1,93 @@
+.title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.gameContainer, .gameModalContainer {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    height: 100%;
+    align-self: stretch;
+    min-width: 200px;
+    cursor: pointer;
+    max-width: 300px;
+}
+
+.gameModalContainer {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    cursor: auto;
+    padding-bottom: 70px;
+}
+
+.closeModal {
+    cursor: pointer;
+    font-size: 30px;
+    display: flex;
+    justify-content: end;
+}
+
+.gameModalContainer .gamePlayers{
+    justify-content: center;
+}
+
+.gameTitle {
+    font-weight: bold;
+}
+
+.gameRules {
+    flex: 1;
+    max-height: 150px;
+    overflow: hidden;
+}
+
+.gamePlayers{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.gamesContainer {
+    justify-content: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    gap: 20px;
+    overflow-x: auto;
+    margin-bottom: 30px;
+}
+
+.gameFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.eventImage {
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 6px;
+}
+
+.eventImage2 {
+    width: 200px;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 6px;
+    margin: 0 auto;
+}
